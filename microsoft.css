@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* =====header style======= */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+}
+.nav-bar ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    border-bottom: 1px solid transparent;
+}
+/* =======general style====== */
+.container{
+    width: 100%;
+    padding: 0% 5%;
+}
+/* ======main image======= */
+.main{
+    padding-top: 8px;
+}
+.content{
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+.content h1, p {
+    padding: 10px 0px;
+}
+.atag{
+ text-decoration: none;
+}
+/* card section started */
+.card{
+    width: 25%;
+    padding: 16px;
+}
+.card img{
+    width: 100%;
+}
+.card-section{
+    display: flex;
+}
+.body{
+    padding: 16px 12px;
+}
+h2{
+    padding: 5px 0px;
+}
+.none{
+    text-decoration: none;
+    color: black;
+}
+.blue {
+    color: blue;
+}
+
+.blue:hover{
+    text-decoration: underline;
+}
+.content2{
+    position: absolute;
+    top: 155%;
+    left: 150px;
+}
+.container2 ,a{
+    color: azure;
+    width: 100%;
+    
+text-decoration:none}
+    
+footer {
+ 
+    background:#f2f2f2 ;
+    /* height: 70vh; */
+}
+.list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 80px;
+}
+footer div {
+    width: 200px;
+    margin: 20px 2px 0px 15px;
+    padding: 15px 25px;
+}
+footer h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding: 0px 0px;
+    color: #616161; 
+}
+div li {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 8px 0px;
+    display: block;
+}
+div li a {
+    text-decoration: none;
+    color: #616161; 
+}
+div li a:hover{
+     text-decoration: underline;
+}
+.butt{
+
+background-color: blue;
+color: blanchedalmond;
+height: 40px;
+width: 150px;
+cursor: pointer;
+}
